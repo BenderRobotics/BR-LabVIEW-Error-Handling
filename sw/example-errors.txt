@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Error Handler Example Error Codes" displayname="Example Errors">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+Unable to initialize %s socket. 
+</nierror>
+<nierror code="5001">
+Received ID (%d) missmatch, expected ID (%d).
+</nierror>
+<nierror code="5002">
+CMD %s returned unexpected value: %d.
+</nierror>
+<nierror code="5003">
+Parsing array error, values are not valid: %d,%d,%d,%d.
+</nierror>
+<nierror code="5004">
+%s occured, array values: %d, %d, %d, %d; date: %T, status: %b, numeric: %d, %d, %d.
+</nierror>
+</nidocument>
