@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Error Handler Example Error Codes 2nd file" displayname="Example Error Codes 2nd file">
+</nifamily>
+</nicomment>
+<nierror code="-8100">
+Error from other error XML file.
+</nierror>
+</nidocument>

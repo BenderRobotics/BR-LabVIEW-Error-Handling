@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Error Handler Example Error Codes" displayname="Example Error Codes">
+</nifamily>
+</nicomment>
+<nierror code="-8000">
+Error: Invalid input encountered - %s.
+</nierror>
+<nierror code="-8001">
+Error: Invalid calculation. Inputs: %^.3e, %5.3f, %.3f.
+</nierror>
+<nierror code="-8002">
+Error: %s. The date of error: %&lt;%Y %X %d&gt;T
+</nierror>
+<nierror code="-8003">
+Error: Failed to process %s with code %d.
+</nierror>
+<nierror code="-8004">
+%s error occurred. The array contains the following numbers: %d, %d, %d, %d. The date is: %T. The 1st condition is: %b. The 2nd condition is: %s. The array inside the cluster contains the following numbers: %d, %d, %d.
+</nierror>
+</nidocument>
