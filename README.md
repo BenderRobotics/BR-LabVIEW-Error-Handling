@@ -129,6 +129,18 @@ You can format error messages with a single element or multiple elements inputte
 
 ## Releases
 
+### v0.0.3.9 (released on 2021 08 09)
+
+- bug fix, number of created error is not changed when XML file does not exist
+
+### v0.0.3.7 (released on 2021 05 29)
+
+- XML file is searched also in current VI's path
+
+### v0.0.3.6 (released on 2021 05 17)
+
+- add vipc file to repository
+
 ### v0.0.3.5 (released on 2023 11 06)
 
 - add support for multiple XML files with error codes definitions in one project
