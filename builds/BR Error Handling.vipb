@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-06 12:24:14" Modified_Date="2024-08-09 16:00:27" Creator="avlcek" Comments="" ID="b9597c3d1e3fdd8d731e368cb49d7dba">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-06 12:24:14" Modified_Date="2024-08-13 07:58:53" Creator="avlcek" Comments="" ID="0897d18d57b76a85e0cf177c3aa8fa4c">
   <Library_General_Settings>
     <Package_File_Name>Bender_Robotics_Error_Handling</Package_File_Name>
-    <Library_Version>0.0.3.10</Library_Version>
+    <Library_Version>0.0.4.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\sw</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -43,7 +43,7 @@ The BR Error Handling overcomes the mentioned disadvantages and allows using all
       <Copyright/>
       <Packager>Bender Robotics</Packager>
       <URL>https://gitlab.benderrobotics.com/br/labview-team/br-labview-error-handling</URL>
-      <Release_Notes>- bug fix, number of created error is not changed when XML file does not exist</Release_Notes>
+      <Release_Notes>- change algorithm of searching for XML files</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -253,7 +253,7 @@ The BR Error Handling overcomes the mentioned disadvantages and allows using all
         <Path>..\sw\HOST\Example\Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB988929B83279F2265EA917D3378BC6</GUID>
+      <GUID>3CD3A7310347905D1BB86D5DD9BB7C12</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
