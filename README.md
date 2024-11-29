@@ -46,7 +46,7 @@ If the package is not available for download as a VIP file, an alternative metho
 
 Once the package is installed, you can find all files of the package in the `[LabVIEW install dir]\vi.lib\Bender Robotics\BR Error Handling folder`. From the LabVIEW developer's perspective the installed package consists of two VIs - the `Generate Error.vi` and the `Init Error Handler.vi` which can be found in Function palette in Bender Robotics sub-menu:
 
-![Menu.png Image](./docs/images/menu.png "Menu folder")
+![Menu.png Image](./docs/images/Menu.png "Menu folder")
 
 ## How to Use BR Error Handling Package
 
@@ -125,19 +125,29 @@ You can format error messages with a single element or multiple elements inputte
 
 - **LabVIEW 2021 SP1 (32-bit)**
 
-- **OpenG String Library by OpenG** (ver. 5.0.0.25) - Library package containing several routines for operating on strings and is used in this project. This toolkit is installed via [VIPM](https://www.vipm.io/). Available to download from here: [OpenG String Library by OpenG](https://www.vipm.io/package/oglib_string/) or directly via VIPM.
+- **OpenG String Library by OpenG** (ver. 6.0.2.35) - Library package containing several routines for operating on strings and is used in this project. This toolkit is installed via [VIPM](https://www.vipm.io/). Available to download from here: [OpenG String Library by OpenG](https://www.vipm.io/package/oglib_string/) or directly via VIPM.
 
 ## Releases
 
-### v0.0.3.9 (released on 2021 08 09)
+### v0.0.4.11 (released on 2024 11 29)
+
+- fix readme
+- update versions of dependencies stated in the vipc file
+- add BSD-3 license file
+
+### v0.0.4.10 (released on 2024 08 13)
+
+- update algorithm of searching for XML file with error codes
+
+### v0.0.3.9 (released on 2024 08 09)
 
 - bug fix, number of created error is not changed when XML file does not exist
 
-### v0.0.3.7 (released on 2021 05 29)
+### v0.0.3.7 (released on 2024 05 29)
 
 - XML file is searched also in current VI's path
 
-### v0.0.3.6 (released on 2021 05 17)
+### v0.0.3.6 (released on 2024 05 17)
 
 - add vipc file to repository
 
